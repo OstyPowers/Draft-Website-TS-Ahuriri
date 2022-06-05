@@ -1,0 +1,216 @@
+/* RESET */
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, a, article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section {
+    /* Cancel out some differences between browser defaults */
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+ 
+* {
+    /* The width of an element will be the size of its border box,
+       not its content box (which is the normal default). */
+    box-sizing: border-box;
+}
+
+/* == END RESET =========================================== */
+
+
+
+
+body {
+	width: 65rem;
+	margin: 0 auto;
+	font-family: Verdana;
+}
+
+header {
+	display: flex;
+	align-items: baseline;
+}
+
+#logo {
+	margin-right: 12em;
+	margin-left: 8em;
+	width: 10%;
+}
+
+#map {
+	padding-right: 6em;
+	padding-left: 6em;
+}
+
+#blurb {
+	color: #EFABAE;
+}
+
+#aboutauthor {
+	display: flex;
+	color: #EFABAE;
+}
+
+#aboutbook {
+	align-items: center;
+	color: #EFABAE;
+}
+
+.here {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.cover {
+	text-align: center;
+}
+
+.selected {
+	color: #ff0000;
+}
+
+.required {
+	color: #ff0000;
+}
+
+a:hover {
+	color: #ff0000;
+}
+
+
+h1  {
+	text-align: center;
+	color: #7720CE;
+	font-family: 'Alex Brush', cursive;
+	font-size: 50px;
+	
+}
+
+h2 {
+	text-align: center;
+	color: #ffffff;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25px;
+}
+
+h3 {
+	text-align: center;
+	color: #ffffff;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25px;
+}
+
+h4  {
+	text-align: center;
+	color: #ffffff;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25px;
+}
+
+h5  {
+	text-align: center;
+	font-size: 45px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	padding-bottom: 1.5em;
+}
+
+h6 {
+	text-align: center;
+	font-size: 45px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	padding-bottom: 1em;
+	color: #ffffff;
+}
+
+
+p  {
+	text-align: center;
+}
+
+
+
+nav ul {
+	display: flex;
+	padding: 0.75em 1em;
+	justify-content: space-between;
+	list-style-type: none;
+	text-decoration: none;
+	
+	
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: 	#808080;
+}
+
+main {
+	background-color: #7720CE;
+
+}
+
+
+
+ul {
+	list-style-type: none;
+}
+
+aside {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-content: space-between;
+	padding: 2em 1em;
+	background-color: #7720CE;
+	color: #EFABAE;
+}
+
+footer {
+	display: flex;
+	padding: 4em 1em;
+}
+
+form {
+	
+	margin: auto;
+	position: relative;
+	width: 550px;
+	height: 450px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 24px;
+	font-weight: bold;
+	color: #EFABAE;;
+	text-decoration: none;
+	padding: 10px;
+	padding-top: 10px;
+ 
+}
+
+input {
+	width: 375px;
+	display: block;
+	border: 1px solid #999;
+	height: 25px;
+}
+
+textarea#feedback {
+	width: 375px;
+	height: 150px;
+	display: block;
+}
+
+button {
+	
+	width: 100px;
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+	background: #09C;
+	color: #fff;
+	font-family: Tahoma, Geneva, sans-serif;
+	height: 30px;
+	border-radius: 15px;
+	border: 1p solid #999;
+}
+
+
+
